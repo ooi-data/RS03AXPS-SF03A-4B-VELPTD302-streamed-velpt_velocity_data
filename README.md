@@ -1,3 +1,5 @@
-# Stream Template Repository
+# RS03AXPS-SF03A-4B-VELPTD302-streamed-velpt_velocity_data
 
-This repository is a template for all the other repositories.
+Stream Type: Science<br>
+Stream Content: Data Products<br>
+Instrument Group Code: VELPT<br>
