@@ -1,0 +1,9 @@
+{
+    "files": [
+        "recipe/*",
+        "history/README.md",
+        ".github/workflows/update-template.yaml",
+        ".github/workflows/register-flow.yaml",
+        "environment.yaml"
+    ]
+}
