@@ -1,13 +1,12 @@
-instrument: Instrument Reference Designator # CE01ISSM-MFD35-02-PRESFA000
-stream:
-  method: Stream method # recovered_host
-  name: Stream reference designator # presf_abc_dcl_tide_measurement_recovered
-assignees: [] # Users to assign downtime issues (optional)
-labels: [] # Labels for downtime issues (optional)
+assigness: []
 harvest_options:
-  refresh: true # To refresh dataset
-  test: true # To run test pipeline, just prints out response on prefect
-  path: s3://ooi-data # Data bucket url
-  goldcopy: false # To get data from goldcopy [NOT IMPLEMENTED]
-workflow_config: # Configuration for data pipeline scheduling
-  schedule: "0 0 * * *" # daily at midnight (Overridden with refresh is true)
+  goldcopy: false
+  path: s3://ooi-data
+  refresh: true
+  test: false
+instrument: RS03AXPS-SF03A-4B-VELPTD302
+stream:
+  method: streamed
+  name: velpt_velocity_data
+workflow_config:
+  schedule: 0 0 * * *
